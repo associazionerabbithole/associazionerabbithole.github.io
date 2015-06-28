@@ -1,0 +1,127 @@
+@import 'intro.css';
+
+html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: whitesmoke;
+  overflow-x: hidden;
+  overflow-y: visible;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  font-size: 13px;
+  font-family: 'Cutive Mono', 'monospace';
+}
+
+@media  (max-width: 640px) {
+  body {
+    font-size: 13px;
+  }
+}
+
+header {
+  border-top: 3px solid black;
+}
+
+footer {
+  /*background:url(../images/stripes.png);*/
+  background-image: linear-gradient(-45deg, black 3%, transparent 3%, transparent 50%, black 50%, black 53%, transparent 53%, transparent);
+  background-size: 16px 16px;
+  padding: 50px 0 50px 0;
+}
+
+footer a {
+  background: whitesmoke;
+}
+
+strong {
+  font-weight: normal;
+  background-color: yellow;
+}
+
+/* About */
+
+section {
+   /*background-image: url("../images/nausicaa11.jpg");*/
+   margin: auto;
+   padding: 10px 15px 50px 15px;
+   max-width: 960px
+ }
+
+article {
+  width: 100%;
+  -webkit-column-count: 2;
+     -moz-column-count: 2;
+          column-count: 2;
+}
+
+ @media (max-width: 640px) {
+  article {
+    -webkit-column-count: 1;
+       -moz-column-count: 1;
+            column-count: 1;
+  }
+}
+
+img {
+   display: block;
+   width: 150px;
+   margin: auto;
+   margin-top: 3em;
+   margin-bottom: 6em;
+ }
+
+p {
+   font-size: 1.2em;
+   /*text-transform: uppercase;*/
+   line-height: 1.5em;
+   letter-spacing: 0;
+   color: black;
+   margin: auto;
+   padding: 1em 0.3em 1em 0.3em;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: line-through;
+}
+
+blockquote > p {
+  padding-top: 0;
+  font-style: normal;
+  font-size: 1.4em;
+  margin-top: 5em;
+  margin-bottom: 3em;
+}
+
+footer > div {
+  margin: auto;
+  width: 540px;
+  text-align: center;
+}
+
+footer p, footer a {
+  line-height: 2em;
+  font-size: 1.3em;
+  text-transform: uppercase;
+  letter-spacing: 0.3em;
+  color: black;
+}
+
+@media  (max-width: 640px) {
+  footer > div {
+    width: 90%;
+    padding-bottom: 5px;
+  }
+  footer  p {
+    padding-top: 0;
+  }
+}
