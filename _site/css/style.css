@@ -84,6 +84,23 @@ article {
   }
 }
 
+aside {
+  width: 70%;
+  font-size: 0.9em;
+  margin: auto;
+  margin-top: 5em;
+  padding: 3em 5em 3em 5em;
+  border: 1px dashed black;
+}
+
+ @media (max-width: 640px) {
+  aside {
+    width: 90%;
+    margin-top: 2em;
+    padding: 1em 1em 1em 1em;
+  }
+}
+
 img {
    display: block;
    width: 150px;
@@ -91,6 +108,13 @@ img {
    margin-top: 3em;
    margin-bottom: 6em;
  }
+
+article img {
+  width: 100%;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 1em 0.3em 1em 0.3em;
+}
 
 p {
    font-size: 1.2em;
@@ -104,10 +128,15 @@ p {
 
 a {
   text-decoration: none;
+  color: black;
 }
 
 a:hover {
   text-decoration: line-through;
+}
+
+p a {
+  text-decoration: underline;
 }
 
 blockquote > p {
@@ -130,6 +159,34 @@ footer p, footer a {
   text-transform: uppercase;
   letter-spacing: 0.3em;
   color: black;
+}
+
+section h1.big {
+  font-size: 3em;
+  padding: 1em 0 0.5em 0;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  font-weight: 400;
+}
+
+section h2 {
+  font-size: 2em;
+  padding: 0 0 1em 0;
+  font-weight: 400;
+}
+
+@media (max-width: 640px) {
+  section h1.big {
+    font-size: 2em;
+  }
+  section h2 {
+    font-size: 1.5em;
+  }
+}
+
+.highlight {
+  background-color: yellow;
+  font-style: normal;
 }
 
 @media  (max-width: 640px) {
