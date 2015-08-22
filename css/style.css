@@ -7,6 +7,7 @@ html {
 }
 
 body {
+  border-top: 4px solid black;
   background: whitesmoke;
   overflow-x: hidden;
   overflow-y: visible;
@@ -34,6 +35,10 @@ main {
           flex: 1;
 }
 
+h1, h2, p {
+  font-weight: 400;
+}
+
 @media  (max-width: 640px) {
   body {
     font-size: 13px;
@@ -41,7 +46,6 @@ main {
 }
 
 header {
-  border-top: 3px solid black;
 }
 
 footer {
@@ -67,7 +71,7 @@ section {
    margin: auto;
    padding: 10px 15px 50px 15px;
    max-width: 960px
- }
+}
 
 article {
   width: 100%;
@@ -88,7 +92,8 @@ aside {
   width: 70%;
   font-size: 0.9em;
   margin: auto;
-  margin-top: 5em;
+  margin-top: 6em;
+  margin-bottom: 3em;
   padding: 3em 5em 3em 5em;
   border: 1px dashed black;
 }
@@ -109,6 +114,34 @@ img {
    margin-bottom: 6em;
  }
 
+.teacher {
+  margin-top: 2em;
+  max-width: 500px;
+  margin-left: 0;
+}
+
+.teacher img {
+  display: block;
+  width: 100px;
+  margin: 0;
+  padding: 0;
+  margin-top: -1em;
+  margin-left: 0;
+  margin-right: 2em;
+  margin-bottom: 0;
+  border-radius: 50px;
+  float: left;
+}
+
+@media (max-width: 639px) {
+  .teacher img {
+    width: 70px;
+    border-radius: 35px;
+    margin-top: 0;
+    margin-bottom: 3em;
+  }
+}
+
 article img {
   width: 100%;
   margin-top: 0;
@@ -126,6 +159,17 @@ p {
    padding: 1em 0.3em 1em 0.3em;
 }
 
+header a {
+  position: relative;
+  padding: 0.5em 0.5em 0.5em 0.7em;
+  font-size: 2em;
+}
+
+header a:hover {
+  right: 0.2em;
+  text-decoration: none;
+}
+
 a {
   text-decoration: none;
   color: black;
@@ -137,6 +181,12 @@ a:hover {
 
 p a {
   text-decoration: underline;
+}
+
+@media (max-width: 640px) {
+ blockquote {
+   margin: 0;
+ }
 }
 
 blockquote > p {
@@ -161,17 +211,38 @@ footer p, footer a {
   color: black;
 }
 
+footer .contacts a {
+  line-height: 2em;
+  font-size: 1.1em;
+  text-transform: none;
+  letter-spacing: 0;
+  color: black;
+}
+
+footer .contacts {
+  margin-top: 1em;
+}
+
+footer img {
+  opacity: 1;
+  max-width: 50px;
+  margin: 3em auto 0 auto;
+  padding: 0;
+}
+
 section h1.big {
   font-size: 3em;
-  padding: 1em 0 0.5em 0;
+  padding: 0;
+  margin: 0.5em 0 0 0;
   text-transform: uppercase;
   letter-spacing: 0.2em;
   font-weight: 400;
 }
 
 section h2 {
+  margin: 0;
   font-size: 2em;
-  padding: 0 0 1em 0;
+  padding: 0 0 3em 0;
   font-weight: 400;
 }
 
@@ -189,6 +260,12 @@ section h2 {
   font-style: normal;
 }
 
+.important {
+  font-style: normal;
+  font-size: 1em;
+  text-decoration: underline;
+}
+
 @media  (max-width: 640px) {
   footer > div {
     width: 90%;
@@ -197,4 +274,62 @@ section h2 {
   footer  p {
     padding-top: 0;
   }
+}
+
+section.corsi {
+  max-width: 760px;
+  border-top: 4px double black;
+  margin: 3em auto 3em auto;
+}
+
+@media  (max-width: 640px) {
+  section.corsi {
+    border-top: 4px double black;
+    margin: 1em 0.5em 1em 0.5em;
+  }
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  font-size: 0.9rem;
+  padding: 1em 0 1em 0;
+  border-bottom: 1px dashed black;
+}
+
+li:hover {
+  background-color: yellow;
+}
+
+.corsi a:hover {
+  text-decoration: none;
+}
+
+.corsi h1 {
+  text-align: center;
+}
+
+.corsi li {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: auto;
 }
