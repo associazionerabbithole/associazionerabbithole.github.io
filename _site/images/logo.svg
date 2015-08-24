@@ -30,9 +30,9 @@
      inkscape:window-height="853"
      id="namedview62"
      showgrid="false"
-     inkscape:zoom="0.6342957"
-     inkscape:cx="-434.37586"
-     inkscape:cy="5.0114653"
+     inkscape:zoom="0.44851479"
+     inkscape:cx="-689.50106"
+     inkscape:cy="122.43479"
      inkscape:window-x="-8"
      inkscape:window-y="0"
      inkscape:window-maximized="0"
@@ -59,7 +59,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -82,15 +82,15 @@
   <text
      sodipodi:linespacing="125%"
      xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:46.80842972px;line-height:125%;font-family:'Clear Sans';-inkscape-font-specification:'Clear Sans';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-     x="17.263588"
-     y="-14.502605"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:42.66188431px;line-height:125%;font-family:'Clear Sans';-inkscape-font-specification:'Clear Sans';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     x="19.145058"
+     y="-16.636553"
      id="text3336"
      transform="scale(1,-1)"
      inkscape:export-xdpi="299.94733"
      inkscape:export-ydpi="299.94733"><tspan
        id="tspan3338"
-       x="17.263588"
-       y="-14.502605"
+       x="19.145058"
+       y="-16.636553"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Open Sans';-inkscape-font-specification:'Open Sans Bold';fill:#ffffff">R</tspan></text>
 </svg>
