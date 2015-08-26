@@ -35,7 +35,7 @@ main {
           flex: 1;
 }
 
-h1, h2, p {
+h1, h2, h3, p {
   font-weight: 400;
 }
 
@@ -116,6 +116,7 @@ img {
 
 .teacher {
   margin-top: 2em;
+  margin-bottom: 2em;
   max-width: 500px;
   margin-left: 0;
 }
@@ -149,7 +150,7 @@ article img {
   padding: 1em 0.3em 1em 0.3em;
 }
 
-p {
+h3, p {
    font-size: 1.2em;
    /*text-transform: uppercase;*/
    line-height: 1.5em;
