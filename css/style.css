@@ -80,6 +80,13 @@ article {
           column-count: 2;
 }
 
+article.one {
+  width: 60%;
+  -webkit-column-count: 1;
+     -moz-column-count: 1;
+          column-count: 1;
+}
+
  @media (max-width: 640px) {
   article {
     -webkit-column-count: 1;
