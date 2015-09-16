@@ -28,9 +28,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.5"
-     inkscape:cx="-405.8118"
-     inkscape:cy="29.657165"
+     inkscape:zoom="0.70710678"
+     inkscape:cx="-340.39007"
+     inkscape:cy="-96.583221"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -151,34 +151,30 @@
          x="325.5"
          y="511.36221"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Open Sans';-inkscape-font-specification:'Open Sans Bold'">www.rabbithole.it</tspan></text>
-    <g
-       id="g4248"
-       transform="translate(983.5,50)">
-      <path
-         inkscape:transform-center-x="3.1458062"
-         transform="matrix(-0.14735175,-0.54992422,0.54992422,-0.14735175,-800.64203,166.53599)"
-         d="m -613.8715,214.9907 -18.48871,-4.95404 -18.48872,-4.95403 13.53468,-13.53468 13.53468,-13.53468 4.95403,18.48871 z"
-         inkscape:randomized="0"
-         inkscape:rounded="0"
-         inkscape:flatsided="false"
-         sodipodi:arg2="1.8325957"
-         sodipodi:arg1="0.78539816"
-         sodipodi:r2="11.051018"
-         sodipodi:r1="22.102036"
-         sodipodi:cy="199.3622"
-         sodipodi:cx="-629.5"
-         sodipodi:sides="3"
-         id="path4244"
-         style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#00ef00;stroke-width:0.02996733;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-         sodipodi:type="star" />
-      <rect
-         transform="matrix(0,-1,1,0,0,0)"
-         y="-593.9801"
-         x="-486.18353"
-         height="22.772938"
-         width="5.6932344"
-         id="rect4246"
-         style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#00ef00;stroke-width:0.0170611;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
-    </g>
+    <path
+       sodipodi:type="star"
+       style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#00ef00;stroke-width:0.02996733;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path4244"
+       sodipodi:sides="3"
+       sodipodi:cx="-629.5"
+       sodipodi:cy="199.3622"
+       sodipodi:r1="22.102036"
+       sodipodi:r2="11.051018"
+       sodipodi:arg1="0.78539816"
+       sodipodi:arg2="1.8325957"
+       inkscape:flatsided="false"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m -613.8715,214.9907 -18.48871,-4.95404 -18.48872,-4.95403 13.53468,-13.53468 13.53468,-13.53468 4.95403,18.48871 z"
+       transform="matrix(-0.14735175,-0.54992422,0.54992422,-0.14735175,182.85797,216.53599)"
+       inkscape:transform-center-x="3.1458062" />
+    <rect
+       style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.0170611;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect4246"
+       width="5.6932344"
+       height="22.772938"
+       x="-536.18353"
+       y="389.5199"
+       transform="matrix(0,-1,1,0,0,0)" />
   </g>
 </svg>
