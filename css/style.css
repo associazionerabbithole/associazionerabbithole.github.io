@@ -14,7 +14,7 @@ body {
   margin: 0;
   padding: 0;
   width: 100%;
-  font-size: 13px;
+  font-size: 15px;
   font-family: 'Cutive Mono', 'monospace';
   display: -webkit-box;
   display: -webkit-flex;
@@ -41,7 +41,7 @@ h1, h2, h3, p {
 
 @media  (max-width: 640px) {
   body {
-    font-size: 13px;
+    font-size: 15px;
   }
 }
 
@@ -184,7 +184,33 @@ header a {
   font-size: 2em;
 }
 
-header a:hover {
+header a.link {
+  float: right;
+  position: relative;
+  padding: 0.5em 0.3em 0.5em 0.3em;
+  font-size: 1.5em;
+  line-height: 2em;
+  font-size: 1em;
+  text-transform: uppercase;
+  letter-spacing: 0.3em;
+  color: black;
+}
+
+@media  (min-width: 450px) {
+  header a.link {
+    float: right;
+    position: relative;
+    padding: 0.5em 1em 0.5em 0.7em;
+    font-size: 1.5em;
+    line-height: 2em;
+    font-size: 1.3em;
+    text-transform: uppercase;
+    letter-spacing: 0.3em;
+    color: black;
+  }
+}
+
+header a.arrow:hover {
   right: 0.2em;
   text-decoration: none;
 }
@@ -218,7 +244,8 @@ blockquote > p {
 
 footer > div {
   margin: auto;
-  width: 540px;
+  width: 600px;
+  max-width: 100%;
   text-align: center;
 }
 
@@ -283,6 +310,7 @@ section h2 {
   font-style: normal;
   font-size: 1em;
   text-decoration: underline;
+  /*background-color: rgba(255,255,0,0.5);*/
 }
 
 @media  (max-width: 640px) {
@@ -315,7 +343,7 @@ ul {
 }
 
 li {
-  font-size: 0.9rem;
+  font-size: 1rem;
   padding: 1em 0 1em 0;
   border-bottom: 1px dashed black;
 }
