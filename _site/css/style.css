@@ -151,10 +151,10 @@ img {
 }
 
 article img {
-  width: 100%;
+  width: 95%;
   margin-top: 0;
   margin-bottom: 0;
-  padding: 1em 0.3em 1em 0.3em;
+  padding: 1em 0.3em 1em 0;
 }
 
 h3, p, table {
@@ -240,6 +240,7 @@ blockquote > p {
   font-size: 1.4em;
   margin-top: 5em;
   margin-bottom: 3em;
+  max-width: 80%;
 }
 
 footer > div {
@@ -279,7 +280,7 @@ footer img {
 section h1.big {
   font-size: 3em;
   padding: 0;
-  margin: 0.5em 0 0 0;
+  margin: 0.5em 0 0.5em 0;
   text-transform: uppercase;
   letter-spacing: 0.2em;
   font-weight: 400;
@@ -298,6 +299,9 @@ section h2 {
   }
   section h2 {
     font-size: 1.5em;
+  }
+  section h3 {
+    font-size: 1.3em;
   }
 }
 
@@ -338,17 +342,25 @@ section.corsi {
 
 ul {
   list-style: none;
+}
+
+li {
+  font-size: 1rem;
+}
+
+.corsi ul {
+  list-style: none;
   margin: 0;
   padding: 0;
 }
 
-li {
+.corsi li {
   font-size: 1rem;
   padding: 1em 0 1em 0;
   border-bottom: 1px dashed black;
 }
 
-li:hover {
+.corsi li:hover {
   background-color: yellow;
 }
 
