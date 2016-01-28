@@ -325,9 +325,6 @@ section h2 {
   .Grid p {
     font-size: 0.9em;
   }
- .Grid img {
-
- }
 }
 
 .highlight {
@@ -474,11 +471,11 @@ li {
 
 .Grid-cell-post {
   width: 33%;
-  max-width: 460px;
+  max-width: 450px;
   min-width: 300px;
   /*min-height: 300px;*/
   height: auto;
-  padding: 10px 1rem 3rem 1rem;
+  padding: 3rem 0 3rem 0;
 }
 
 .Grid img {
@@ -486,7 +483,7 @@ li {
   width: 100px;
   border-radius: 10px;
   margin-right: 1rem;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0;
   margin-top: 0.5rem;
 }
 
