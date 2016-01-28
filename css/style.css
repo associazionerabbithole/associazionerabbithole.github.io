@@ -87,6 +87,14 @@ article.one {
           column-count: 1;
 }
 
+.Grid article{
+  margin: auto;
+  width: 80%;
+  -webkit-column-count: 1;
+     -moz-column-count: 1;
+          column-count: 1;
+}
+
  @media (max-width: 640px) {
   article {
     -webkit-column-count: 1;
@@ -293,6 +301,17 @@ section h2 {
   font-weight: 400;
 }
 
+.Grid h2 {
+  font-size: 1.2em;
+  padding: 0;
+  line-height: 1.3em;
+}
+
+.Grid p {
+  font-size: 1em;
+}
+
+
 @media (max-width: 640px) {
   section h1.big {
     font-size: 2em;
@@ -303,6 +322,12 @@ section h2 {
   section h3 {
     font-size: 1.3em;
   }
+  .Grid p {
+    font-size: 0.9em;
+  }
+ .Grid img {
+
+ }
 }
 
 .highlight {
@@ -328,7 +353,7 @@ section h2 {
 }
 
 section.corsi {
-  max-width: 760px;
+  /*max-width: 760px;*/
   border-top: 4px double black;
   margin: 3em auto 3em auto;
 }
@@ -356,8 +381,8 @@ li {
 
 .corsi li {
   font-size: 1rem;
-  padding: 1em 0 1em 0;
-  border-bottom: 1px dashed black;
+  padding: 2em 0 2em 0;
+  /*border-bottom: 1px dashed black;*/
 }
 
 .corsi li:hover {
@@ -391,4 +416,82 @@ li {
       -ms-flex-pack: justify;
           justify-content: space-between;
   margin: auto;
+}
+
+/* GRID */
+
+.Grid {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+            -ms-flex-pack: center;
+          justify-content: center;
+  margin: auto;
+}
+
+@media  (max-width: 599px) {
+  .Grid {
+    -webkit-justify-content: space-around;
+        -ms-flex-pack: distribute;
+            justify-content: space-around;
+  }
+}
+
+@media  (min-width: 600px) {
+  .Grid {
+    max-width: 600px;
+  }
+}
+
+@media  (min-width: 760px) {
+  .Grid {
+    max-width: 760px;
+  }
+}
+
+@media  (min-width: 900px) {
+  .Grid {
+    max-width: 900px;
+  }
+}
+
+@media  (min-width: 1200px) {
+  .Grid {
+    max-width: 1200px;
+  }
+}
+
+.Grid-cell-post {
+  width: 33%;
+  max-width: 460px;
+  min-width: 300px;
+  /*min-height: 300px;*/
+  height: auto;
+  padding: 10px 1rem 3rem 1rem;
+}
+
+.Grid img {
+  float: left;
+  width: 100px;
+  border-radius: 10px;
+  margin-right: 1rem;
+  margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+@media (max-width: 640px) {
+ .Grid img {
+   margin-bottom: 0;
+ }
 }
