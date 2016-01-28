@@ -395,7 +395,7 @@ li {
 }
 
 .corsi li {
-  width: 100%;
+  width: 50%;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -412,7 +412,7 @@ li {
   -webkit-justify-content: space-between;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin: auto;
+  /*margin: auto;*/
 }
 
 /* GRID */
@@ -431,13 +431,13 @@ li {
       -ms-flex-wrap: wrap;
           flex-wrap: wrap;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
-            -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-justify-content: flex-start;
+            -ms-flex-pack: flex-start;
+          justify-content: flex-start;
   margin: auto;
 }
 
-@media  (max-width: 599px) {
+@media  (max-width: 900px) {
   .Grid {
     -webkit-justify-content: space-around;
         -ms-flex-pack: distribute;
@@ -470,9 +470,9 @@ li {
 }
 
 .Grid-cell-post {
-  width: 33%;
-  max-width: 450px;
-  min-width: 300px;
+  width: 50%;
+  max-width: 480px;
+  min-width: 400px;
   /*min-height: 300px;*/
   height: auto;
   padding: 3rem 0 3rem 0;
