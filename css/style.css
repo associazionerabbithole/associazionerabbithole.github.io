@@ -363,7 +363,8 @@ section.corsi {
 }
 
 ul {
-  list-style: none;
+  list-style: bullet;
+  padding-left: 20px;
 }
 
 li {
