@@ -1,0 +1,75 @@
+---
+layout: page
+title: Laboratori Estivi per Bambini e Ragazzi
+---
+<section>
+  <h1 class="big">
+    Lab. Estivi per Bambini e Ragazzi
+  </h1>
+  <h2>
+    Laboratorio per bambini
+  </h2>
+  <article>
+    <p>
+      Durante l’arco degli incontri verranno utilizzati diversi giochi teatrali
+      utili a sviluppare le capacità creative e la fantasia.
+      I partecipanti scopriranno gli elementi base dello spazio scenico
+      imparando a rapportarsi con esso attraverso il corpo, i sensi e le loro
+      stesse possibilità espressive.
+    </p>
+    <p>
+      Partecipare ad un laboratorio teatrale è sempre una bella occasione
+      per dare spazio alla creatività e alla fantasia nascosta in ogni bambino
+      alimentando al tempo stesso nuove relazioni sociali e spirito di
+      collaborazione.
+    </p>
+    <p>
+      Questo percorso si svilupperà in due parti: 
+      la prima prevede il gioco attraverso diversi esercizi teatrali mirati all'età dei partecipanti, 
+      la seconda finalizzata alla messa in scena di una breve rappresentazione o di una storia che può
+      nascere e crescere durante il laboratorio.
+    </p>
+    <img src="/images/bambini2.jpg">
+    <h2>
+    Lab. per ragazzi
+    </h2>
+    <p>
+    Nell'arco delle ore di laboratorio con i ragazzi impareremo cosa significa "fare teatro"
+    e quali sono gli elementi fondamentali che lo compongono.
+    Tatto, olfatto, udito e vista diventano con il teatro strumenti indispensabili al lavoro attivo dell’attore 
+    e al compito altrettanto importante dello spettatore, mentre improvvisazioni, dialoghi, monologhi e scambio di ruoli 
+    diventano mezzi necessari per stimolare una conoscenza sempre più profonda di quest’arte.
+    </p>
+    <p>
+    Questo percorso si svilupperà in due parti: 
+      la prima prevede il gioco attraverso diversi esercizi teatrali mirati all'età dei partecipanti, 
+      la seconda finalizzata alla messa in scena di una breve rappresentazione o di una storia che può
+      nascere e crescere durante il laboratorio.
+    </p>
+    <p>
+      <em class="important">L'obiettivo del laboratorio non è solo il risultato finale ma
+      soprattutto l’esperienza fatta durante il percorso, un emozionante viaggio con il
+      quale si ha occasione di comunicare, conoscere e divertirsi.</em>
+    </p>
+  </article>
+  <aside>
+    <h3>
+      Orari e costi
+    </h3>
+    <p>
+      Il lab. per bambini si svolgerà dal 4 al 15 luglio, dal lunedì al venerdì (09:00 - 12:00)
+      Il lab. per ragazzi si svolgerà dal 4 al 15 luglio, dal lunedì al venerdì (15:00 - 18:00)
+      Luogo: San Zeno di Cassola in Via Martiri di Marzabotto 48 presso la sede dell’Associazione Filodrammatica RABBIT HOLE. 
+      Le iscrizioni sono aperte ed è prevista una partecipazione a numero limitato.
+    </p>
+    <p>
+      Per ulteriori informazioni contattateci ai numeri 347 7468729 - 349 5119733 o all'indirizzo email associazione@rabbithole.it.
+    </p>
+    <p class="teacher">
+      <img src="/images/barbara.png">
+      Il corso è tenuto da <a href="http://barbarascalco.com/">Barbara Scalco</a>,
+      attiva nel settore teatrale dal 2006.
+    </p>
+  </aside>
+</section>
+{% include corsi.html %}
