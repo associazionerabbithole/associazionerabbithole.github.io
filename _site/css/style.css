@@ -349,6 +349,7 @@ section h2 {
   }
 }
 
+section.gallery,
 section.corsi {
   /*max-width: 760px;*/
   border-top: 4px double black;
@@ -488,8 +489,44 @@ li {
   margin-top: 0.5rem;
 }
 
+.Grid-cell-gallery {
+  width: 33%;
+  max-width: 480px;
+  text-align: center;
+  min-width: 300px;
+  /*min-height: 300px;*/
+  height: auto;
+  padding: 3rem 0 3rem 0;
+}
+
 @media (max-width: 640px) {
  .Grid img {
    margin-bottom: 0;
  }
+}
+
+.gallery ul {
+  list-style: none;
+}
+
+.gallery h1 {
+  text-align: center;
+}
+
+
+.Grid-cell-gallery img {
+  width: 80%;
+  margin: auto;
+  float: none;
+  border-radius: 0;
+  cursor: pointer;
+}
+
+.Grid-cell-gallery img:hover {
+  -webkit-filter: drop-shadow(20px 20px 0px yellow);
+          filter: drop-shadow(20px 20px 0px yellow);
+}
+
+.hidden {
+  display: none;
 }
