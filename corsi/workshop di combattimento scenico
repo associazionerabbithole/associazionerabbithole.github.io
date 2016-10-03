@@ -1,0 +1,81 @@
+---
+layout: page
+title: Workshop di Combattimento Scenico
+---
+<section>
+  <h1 class="big">
+    Workshop di Combattimento Scenico
+  </h1>
+  <h2>
+    Ridare vita ad una pelle animale che può prendere altre forme, altre sembianze.
+  </h2>
+  <!--<article class="one">-->
+  <article>
+    <p>
+      Indirizzato a tutti coloro che intendano approfondire le principali tecniche di combattimento. Il corso è adatto ai professionisti dell'ambiente teatrale ma anche agli amanti dell'arte scenica, dello scherma e della lotta corpo a corpo.
+    </p>
+    <p>
+      I workshop sono condotti da Santo Nocerino e si svolgeranno nell'arco di tre weekend fra i mesi di dicembre, marzo e giugno. Malgrado non sia obbligario partecipare a tutti e tre gli incontri è comunque consigliato, in questo modo si arriverà ad avere una buona panoramica delle diverse tecniche di combattimento scenico.
+    </p>
+    <p>
+      <b>Santo Nocerino</b> è uno dei pochi insegnanti di recitazione italiani specializzato in combattimento scenico e insegnante di movimento scenico e teatro fisico. Diplomato istruttore cintura nera primo dan di arti marziali a livello europeo presso l'accademia Fu Hok Kwoon di Vasto (Chieti), ha studiato recitazione presso diverse scuole tra cui il Cantiere Teatrale Abruzzese di Pescara, il Teatro Fulvio di Guglionesi - Campobasso (masterclass con Giampiero Pizzol), il Teatro Agricolo di Livorno, il Teatro Primo Studio di Milano ed ha approfondito le sue conoscenze nei vari sistemi di combattimento con diversi maestri tra cui Luigi Martone, Emilio Capone, Andreas Garski e il Gran Maestro Chiu Chi Ling, leggenda vivente del mondo del Kung-Fu e del cinema d'azione di Hong Kong. Ha insegnato presso diverse scuole di recitazione formando allievi provenienti da tutta Europa, per la maggior parte professionisti ed allievi professionisti. Coreografo di combattimento scenico\maestro d'armi per teatro e cinema, ha coreografato combattimenti scenici di ogni genere: a mani nude,con spade, con bastoni, comici, drammatici, danzati ecc...
+Coreografo di combattimento del cortometraggio "Mirages" premiato nel 2012 come Best Experimental all'Uptown Independent Film Festival di Detroit e come Best Art on Wall al New Media Film Festival di Los Angeles, selezionato nel 2012 per il New Filmmakers Spring Series di New York e l'Edimburgh Short Film Festival.
+Ha insegnato combattimento scenico agli attori dello spettacolo "Cyrano - L'Ultimo Capitano", premiato nel 2016 come Miglior Spettacolo al festival InCorto Teatrale presso il Centro Culturale Artemia di Roma, vincitore del Premio del Pubblico al festival PoverArte_16 organizzato dal Teatro Ebasko di Bologna e partecipante al Festival Internazionale ProContra in Polonia.
+Campione del mondo di Kung Fu (forme) nel 2002.
+    <img src="/images/sindoca.jpg">
+    <p>
+    <b>3-4 DICEMBRE: WORKSHOP DI COMBATTIMENTO SCENICO A MANI NUDE</b>
+    </p>
+    <p>
+    Lavoro sui principi e tecniche del combattimento scenico a mani nude (cadute, pugni, calci, tecniche di lotta ecc...). Applicazioni a coppia delle tecniche in piccole scene interpretate ed improvvisazioni guidate, con attenzione allo studio dei personaggi che si andranno a interpretare.
+    </p>
+    <p>
+    <b>11-12 MARZO: WORKSHOP DI SCHERMA SCENICA</b>
+    </p>
+    <p>
+    Maneggio della spada nel combattimento scenico, utilizzando bastoni corti in legno per la massima sicurezza. Lavoro sulle tecniche successivamente applicate su sequenze e scene create dall'insegnante.
+    </p>
+    <p>
+    <b>10-11 GIUGNO: COMBATTIMENTO SCENICO CON ARMI NON CONVENZIONALI</b>
+    </p>
+    <p>
+    Studio di tecniche e sequenze di combattimento scenico con armi sceniche "non convenzionali" (bastone da passeggio, bottiglia, bastone corto, coltello ecc...) e creazione di scene di combattimento con oggetti quali sedie, tavoli ecc...
+    </p>
+  </article>
+  <aside>
+    <h3>
+      Info e prenotazioni
+    </h3>
+    <p>
+      Il workshop si svolgerà nell'arco di tre weekend per un totale di circa 48 ore.
+    </p>
+    <p>
+      La sede rimane quella dell’associazione filodrammatica Rabbit Hole in via Martiri di Marzabotto 48, San Zeno di Cassola. Per ulteriori informazioni contattateci al numero 347 7468729 o all'indirizzo email associazione@rabbithole.it.
+    </p>
+    <p class="teacher">
+      <img src="/images/barbara.png">
+      Il corso è organizzato da <a href="http://barbarascalco.com/">Barbara Scalco</a>, attiva nel settore teatrale dal 2006.
+    </p>
+  </aside>
+</section>
+{% include corsi.html %}
+    </p>
+    <img src="/images/sindoca.jpg">
+  </article>
+  <aside>
+    <h3>
+      Info e prenotazioni
+    </h3>
+    <p>
+      Il workshop si svolgerà durante il weekend del 16-17 aprile per una durata totale di circa 14 ore. Ogni partecipante realizzerà una maschera da tenere per sé utilizzando i modelli messi a disposizione. Attrezzi e materiali verranno forniti all’inizio del workshop.
+    </p>
+    <p>
+      La sede rimane quella dell’associazione filodrammatica Rabbit Hole in via Martiri di Marzabotto 48, San Zeno di Cassola. Per ulteriori informazioni contattateci al numero 347 7468729 o all'indirizzo email associazione@rabbithole.it.
+    </p>
+    <p class="teacher">
+      <img src="/images/barbara.png">
+      Il corso è organizzato da <a href="http://barbarascalco.com/">Barbara Scalco</a>, attiva nel settore teatrale dal 2006.
+    </p>
+  </aside>
+</section>
+{% include corsi.html %}
