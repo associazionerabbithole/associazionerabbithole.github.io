@@ -1,0 +1,60 @@
+---
+layout: page
+title: Workshop di Mimo con Elena Serra
+---
+<section>
+  <h1 class="big">
+    Il LINGUAGGIO UNIVERSALE dell'attore corporeo
+  </h1>
+  <!--<article class="one">-->
+  <article>
+    <p>
+      L'arte del mimodramma è un 'arte antica che fu resa popolare dal celebre mimo Marcel Marceau. 
+Ma cosa signififica per l'attore di oggi approfondire le radici di quest'arte universale? Significa analizzare lo studio delle differenti tecniche del mimo e della presenza scénica dell'attore , elaborate in un primo tempo da  Etienne Decroux , analizzate e approfondite da Jaques Lecoq e infine  teatralizzate  da Marcel Marceau , per  permettere la padronanza  in scena del principale strumento drammatico dell'attore:
+IL CORPO. 
+Come per il musicista  l'attore deve poter tradurre il movimento attraverso una musicalità e una tecnica che traducano le emozioni universali.
+    </p>
+    <p>
+      Lo stage approfodirà le tecniche di base delle arti  del mimo:
+<ul>scomposizione del movimento</ul> 
+<ul>i ritmi e i contrappesi</ul>
+<ul>lo studio delle mani e dei caratteri</ul>
+<ul>I 4 elementi</ul>
+<ul>I 5 sensi</ul> 
+<ul>le camminate</ul> 
+<ul>le metamorfosi</ul> 
+<ul>l'identificazione l'illusione ottica e le rotture comiche</ul> 
+<ul>repertorio delle pantomime di stile</ul> 
+<ul>l'improvvisazione</ul> 
+<ul>la presentazione in pubblico</ul> 
+    </p>
+    <p>
+      <b>Elena Serra attrice , regista e pedagoga ha collaborato durante 20 anni con il celebre mimo Marcel Marceau.</b>
+Dilpomata alla scuola Internazionale di Mimodramma di Parigi Marcel Marceaunel 1988  diventa  sua assistente,  
+insegna 10 anni nella scuola e accompagna il Maestro in numerose tournè nel mondo intero. La sua formazione pluridisciplinare (danza,teatro ,clown,commedia dell'arte, mimo,acrobazia) l'orienta verso una ricerca dell'attore « totale »,
+dove il corpo è sempre il primo strumento drammatico a esprimersi sulla scena.
+<b>Dal 2005 Elena Serra é collaboratrice di  Carlo Boso et Danuta Zarazik all'Accademia delle Arti dello Spettacolo a Versailles, insegna alla scuola di cinema e teatro Acting International  di Parigi</b>, e prosegue alte formazioni  e Master Class in tutta Europa ( Scuola Paolo Grassi Milano / Nico Pepe Udine/Accademia di Neufchatea Belgio/ Scuola di Teatro Fisico Torino Istituto delle Arti del Music-Hall Le Mans /Festival di mimo Reus Espagne /CUT Università Cattolica -Brescia/ Festival popolare di Senigallia/Teatro patafisico Palermo ).
+    </p>
+    <img src="/images/combattimento_scenico.jpg">
+  </article>
+  <aside>
+    <h3>
+      Info e prenotazioni
+    </h3>
+    <p>
+      Il workshop si svolgerà nell'arco di tre giornate per un totale di 20 ore:
+      venerdì 7 Aprile 2017 dalle 18:00 alle 22:00
+      sabato 8 Aprile 2017 dalle 10:00 alle 19:00 (un'ora di pausa)
+      domenica 9 Aprile 2017 dalle 9:00 alle 18:00 (un'ora di pausa)
+    </p>
+    <p>
+      La sede rimane quella dell’associazione filodrammatica Rabbit Hole in via Martiri di Marzabotto 48, San Zeno di Cassola. Le iscrizioni sono a numero chiuso, è quindi richiesta la prenotazione entro il 05.03.17.
+      Per ulteriori informazioni contattateci al numero 347 7468729 o all'indirizzo email associazione@rabbithole.it.
+    </p>
+    <p class="teacher">
+      <img src="/images/barbara.png">
+      Il corso è organizzato da <a href="http://barbarascalco.com/">Barbara Scalco</a>, attiva nel settore teatrale dal 2006.
+    </p>
+  </aside>
+</section>
+{% include corsi.html %}
