@@ -45,9 +45,6 @@ h1, h2, h3, p {
   }
 }
 
-header {
-}
-
 footer {
   /*background:url(../images/stripes.png);*/
   background-image: linear-gradient(-45deg, black 3%, transparent 3%, transparent 50%, black 50%, black 53%, transparent 53%, transparent);
@@ -529,4 +526,9 @@ li {
 
 .hidden {
   display: none;
+}
+
+video {
+  padding-top: 20px;
+  width: 100%;
 }
