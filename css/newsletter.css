@@ -1,63 +1,64 @@
 #mc_embed_signup {
-  margin-bottom: 40px;
+	margin-bottom: 40px;
+	width: 400px;
 }
 
 @media  (max-width: 640px) {
   #mc_embed_signup {
-    padding-bottom: 5px;
+	padding-bottom: 5px;
   }
 }
 
  #mc_embed_signup_scroll {
-    max-width: 400px;
-    margin: auto;
+	max-width: 400px;
+	margin: auto;
 }
 
 .mc-field-group label {
-    display: none;
+	display: none;
 }
 
 #mce-EMAIL {
-    width: 50%;
-    height: 35px;
-    float: left;
-    display: inline;
-    border: 0px solid white;
-    padding: 0px 10px 0px 10px;
-    color: black;
-    background: yellow;
-    text-align: center;
+	width: 50%;
+	height: 35px;
+	float: left;
+	display: inline;
+	border: 0px solid white;
+	padding: 0px 10px 0px 10px;
+	color: black;
+	background: yellow;
+	text-align: center;
 }
 
 #mce-EMAIL:focus {
-    outline: 0;
+	outline: 0;
 }
 
 #mc-embedded-subscribe {
-    height: 35px;
-    width: 30%;
-    color: black;
-    background-color: whitesmoke;
-    padding: 4px 10px 4px 10px;
-    border: 1px solid black;
+	height: 35px;
+	width: 50%;
+	color: black;
+	background-color: whitesmoke;
+	padding: 4px 10px 4px 10px;
+	border: 1px solid black;
 }
 
 @media  (max-width: 640px) {
   #mce-EMAIL {
-    width: 70%;
-    float: none;
-    padding: 0;
-    margin-bottom: 5px;
+	width: 50%;
+	float: none;
+	padding: 0;
+	margin-bottom: 5px;
   }
   #mc-embedded-subscribe {
-    width: 70%;
+	width: 50%;
   }
 }
 
 #mc-embedded-subscribe:hover {
-    border: 0px solid black;
+	border: 0px solid black;
 }
 
 #mc-embedded-subscribe:focus {
-    outline: 0;
+	outline: 0;
 }
