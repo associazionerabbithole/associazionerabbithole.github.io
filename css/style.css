@@ -40,6 +40,10 @@ h1, h2, h3, p {
 	font-weight: 400;
 }
 
+b {
+	font-weight: bold;
+}
+
 @media  (max-width: 640px) {
 	body {
 		font-size: 15px;
@@ -87,7 +91,6 @@ article.one {
 
 .Grid article{
 	margin: auto;
-	width: 80%;
 	-webkit-column-count: 1;
 		 -moz-column-count: 1;
 					column-count: 1;
@@ -250,29 +253,51 @@ figcaption > h1 {
 
 /* figcaption */
 
-/* .vetrine-corsi */
+/* .vetrina-corso */
 
-section.vetrine-corsi {
-	margin: 0;
+article.vetrina-corso > h1 {
+	font-size: 1.5em;
+	line-height: 1.3em;
 	padding: 0;
-	border-top: 0;
-	margin: 2em auto 2em auto;
+	margin: 0 0 15px 0;
 }
 
-section.vetrine-corsi article {
-	display: flex;
-	margin: 5em 0 0 0;
+article.vetrina-corso > p {
+	font-size: 1em;
+	line-height: 1.5em;
+	padding: 0;
+	margin: 0 0 15px 0;
 }
 
-section.vetrine-corsi figure {
-	width: 480px;
-	flex: 0 0 auto;
+article.vetrina-corso > p > a{
+	color: #1f75fe;
+	text-decoration: none;
 }
 
-/* section.vetrine-corsi figcaption {
-} */
+article.vetrina-corso > p.highlighted {
+	background: #eee;
+	font-size: 1em;
+	line-height: 1.5em;
+	padding: 10px;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	margin: 0 0 15px 0;
+}
 
-/* .vetrine-corsi */
+article.vetrina-corso > figure {
+	width: 100%;
+	padding: 0;
+	margin: 0 0 15px 0;
+	overflow: hidden;
+}
+
+article.vetrina-corso > figure > img {
+	width: 100%;
+	padding: 0;
+	margin: 0;
+ }
+
+/* .vetrina-corso */
 
 a {
 	text-decoration: none;
@@ -405,6 +430,10 @@ section h2 {
 	}
 }
 
+section.double-top {
+	border-top: 4px double black;
+}
+
 section.gallery,
 section.corsi {
 	/*max-width: 760px;*/
@@ -428,6 +457,7 @@ li {
 	font-size: 1rem;
 }
 
+ul.Grid,
 .corsi ul {
 	list-style: none;
 	margin: 0;
@@ -489,9 +519,9 @@ li {
 			-ms-flex-wrap: wrap;
 					flex-wrap: wrap;
 	-webkit-box-pack: center;
-	-webkit-justify-content: flex-start;
-						-ms-flex-pack: flex-start;
-					justify-content: flex-start;
+	-webkit-justify-content: space-between;
+						-ms-flex-pack: space-between;
+					justify-content: space-between;
 	margin: auto;
 }
 
@@ -526,14 +556,14 @@ li {
 		max-width: 1200px;
 	}
 }
-
+ .Grid > li,
 .Grid-cell-post {
-	width: 50%;
-	max-width: 480px;
-	min-width: 400px;
+	width: 430px;
+	/* max-width: 480px;
+	min-width: 400px; */
 	/*min-height: 300px;*/
 	height: auto;
-	padding: 3rem 0 3rem 0;
+	padding: 2rem 0;
 }
 
 .Grid img {
