@@ -646,3 +646,7 @@ img.brand-icon {
 	border-radius: 25px;
 	background: whitesmoke;
 }
+
+main > section:first-child {
+	border-top: none;
+}
