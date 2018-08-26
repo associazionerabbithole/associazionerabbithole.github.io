@@ -192,6 +192,7 @@ table {
 
 header {
 	background: black;
+	position: relative;
 	width: 100vw;
 	box-sizing: border-box;
 	height: 40px;
@@ -650,3 +651,34 @@ img.brand-icon {
 main > section:first-child {
 	border-top: none;
 }
+
+/* insegnante */
+
+figure.insegnante {
+	display: flex;
+	justify-content: flex-start;
+	width: 920px;
+	margin: 100px auto;
+}
+
+figure.insegnante > img {
+ width: 500px;
+ height: 500px;
+ margin: 0;
+ padding: 0;
+}
+
+figure.insegnante > figcaption {
+	padding-left: 20px;
+	width: 400px;
+}
+
+figure.insegnante > figcaption > h1 {
+
+}
+
+figure.insegnante > figcaption > p {
+	font-size: 1rem;
+}
+
+/* */
