@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Cutive+Mono|Source+Code+Pro:900');
 @import 'intro.css';
 
 html {
@@ -16,6 +17,8 @@ body {
 	width: 100%;
 	font-size: 15px;
 	font-family: 'Cutive Mono', 'monospace';
+	/* -webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale; */
 	font-weight: 300;
 	display: -webkit-box;
 	display: -webkit-flex;
@@ -30,14 +33,21 @@ body {
 }
 
 main {
+	margin-top: 3em;
 	-webkit-box-flex: 1;
 	-webkit-flex: 1;
 			-ms-flex: 1;
 					flex: 1;
 }
 
-h1, h2, h3, p {
+h2, h3, p {
 	font-weight: 400;
+}
+
+h1 {
+	font-weight: 900;
+	font-family: 'Source Code Pro', monospace;
+	font-size: 3rem;
 }
 
 b {
@@ -127,7 +137,7 @@ img.clock {
 	display: block;
 	width: 150px;
 	margin: auto;
-	margin-top: 3em;
+	margin-top: 0;
 	margin-bottom: 6em;
 }
 
@@ -224,13 +234,7 @@ header {
 	color: white;
 }
 
-header > h1 {
-	margin: 0;
-	padding: 0;
-	font-size: 1em;
-}
-
-header > h1 > a {
+header > a {
 	color: white;
 }
 
@@ -240,12 +244,11 @@ header > nav > a {
 	padding: 0px 5px 0 5px;
 }
 
-header > nav > a::before {
+header a::before {
 	content: '/';
 }
 
-header > h1 > a:hover,
-header > nav > a:hover {
+header a:hover {
 	color: yellow;
 }
 
@@ -277,8 +280,8 @@ figcaption > h1 {
 /* .vetrina-corso */
 
 article.vetrina-corso > h1 {
-	font-size: 1.5em;
-	line-height: 1.3em;
+	font-size: 1.7em;
+	line-height: 1.5em;
 	padding: 0;
 	margin: 0 0 15px 0;
 }
@@ -687,7 +690,7 @@ figure.insegnante {
 	display: flex;
 	justify-content: flex-start;
 	width: 920px;
-	margin: 100px auto;
+	margin: 50px auto 100px auto;
 }
 
 figure.insegnante > img {
@@ -703,7 +706,7 @@ figure.insegnante > figcaption {
 }
 
 figure.insegnante > figcaption > h1 {
-
+	font-size: 1.5rem;
 }
 
 figure.insegnante > figcaption > p {
