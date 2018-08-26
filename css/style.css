@@ -10,7 +10,7 @@ body {
 	background: whitesmoke;
 	overflow-x: hidden;
 	overflow-y: visible;
-	color: black;
+	color: #010f1f;
 	margin: 0;
 	padding: 0;
 	width: 100%;
@@ -52,7 +52,7 @@ b {
 
 footer {
 	/*background:url(../images/stripes.png);*/
-	background-image: linear-gradient(-45deg, black 3%, transparent 3%, transparent 50%, black 50%, black 53%, transparent 53%, transparent);
+	background-image: linear-gradient(-45deg, #010f1f 3%, transparent 3%, transparent 50%, #010f1f 50%, #010f1f 53%, transparent 53%, transparent);
 	background-size: 16px 16px;
 	padding: 50px 0 50px 0;
 }
@@ -77,9 +77,10 @@ section {
 
 article {
 	width: 100%;
+	-webkit-column-gap: 80px;
+	column-gap: 80px;
 	-webkit-column-count: 2;
-		 -moz-column-count: 2;
-					column-count: 2;
+	column-count: 2;
 }
 
 article.one {
@@ -111,7 +112,7 @@ aside {
 	margin-top: 6em;
 	margin-bottom: 3em;
 	padding: 3em 5em 3em 5em;
-	border: 1px dashed black;
+	border: 1px dashed #010f1f;
 }
 
  @media (max-width: 640px) {
@@ -122,13 +123,23 @@ aside {
 	}
 }
 
-img {
-	 display: block;
-	 width: 150px;
-	 margin: auto;
-	 margin-top: 3em;
-	 margin-bottom: 6em;
- }
+img.clock {
+	display: block;
+	width: 150px;
+	margin: auto;
+	margin-top: 3em;
+	margin-bottom: 6em;
+}
+
+img.home {
+	display: block;
+	width: 100%;
+	margin: 0 auto 30px auto;
+	border-radius: 3px;
+	-webkit-box-shadow: 0px 0px 37px -8px rgba(0,0,0,0.65);
+	-moz-box-shadow: 0px 0px 37px -8px rgba(0,0,0,0.65);
+	box-shadow: 0px 0px 37px -8px rgba(0,0,0,0.65);
+}
 
 .teacher {
 	margin-top: 2em;
@@ -163,16 +174,25 @@ article img {
 	width: 95%;
 	margin: 0;
 	padding: 0;
-	/* -webkit-filter: drop-shadow(5px 5px 0px black);
-					filter: drop-shadow(5px 5px 0px black); */
+	/* -webkit-filter: drop-shadow(5px 5px 0px #010f1f);
+					filter: drop-shadow(5px 5px 0px #010f1f); */
 }
 
-h3, p, table {
+p {
+	font-size: 1.2em;
+	line-height: 1.5em;
+	letter-spacing: 0;
+	color: #010f1f;
+	margin: auto;
+	padding: 1em 0;
+}
+
+h3, table {
 	 font-size: 1.2em;
 	 /*text-transform: uppercase;*/
 	 line-height: 1.5em;
 	 letter-spacing: 0;
-	 color: black;
+	 color: #010f1f;
 	 margin: auto;
 	 padding: 1em 0.3em 1em 0;
 }
@@ -191,7 +211,7 @@ table {
 /* header */
 
 header {
-	background: black;
+	background: #010f1f;
 	position: relative;
 	width: 100vw;
 	box-sizing: border-box;
@@ -280,8 +300,8 @@ article.vetrina-corso > p.highlighted {
 	font-size: 1em;
 	line-height: 1.5em;
 	padding: 10px;
-	border-top: 1px solid black;
-	border-bottom: 1px solid black;
+	border-top: 1px solid #010f1f;
+	border-bottom: 1px solid #010f1f;
 	margin: 0 0 15px 0;
 }
 
@@ -302,7 +322,7 @@ article.vetrina-corso > figure > img {
 
 a {
 	text-decoration: none;
-	color: black;
+	color: #010f1f;
 }
 
 a:hover {
@@ -320,12 +340,21 @@ p a {
 }
 
 blockquote > p {
-	padding-top: 0;
 	font-style: normal;
 	font-size: 1.4em;
-	margin-top: 5em;
-	margin-bottom: 3em;
+	padding: 0;
+	margin: 0;
+}
+
+cite {
+	float: right;
+	margin-top: 20px;
+}
+
+div.quote {
+	margin: 0 auto;
 	max-width: 80%;
+	margin-bottom: 150px;
 }
 
 footer > div {
@@ -340,7 +369,7 @@ footer p, footer a {
 	font-size: 1.3em;
 	text-transform: uppercase;
 	letter-spacing: 0.3em;
-	color: black;
+	color: #010f1f;
 }
 
 footer h2 {
@@ -352,7 +381,7 @@ footer .contacts a {
 	font-size: 1.1em;
 	text-transform: none;
 	letter-spacing: 0;
-	color: black;
+	color: #010f1f;
 }
 
 footer .contacts {
@@ -432,19 +461,19 @@ section h2 {
 }
 
 section.double-top {
-	border-top: 4px double black;
+	border-top: 4px double #010f1f;
 }
 
 section.gallery,
 section.corsi {
 	/*max-width: 760px;*/
-	border-top: 4px double black;
+	border-top: 4px double #010f1f;
 	margin: 3em auto 3em auto;
 }
 
 @media  (max-width: 640px) {
 	section.corsi {
-		border-top: 4px double black;
+		border-top: 4px double #010f1f;
 		margin: 1em 0.5em 1em 0.5em;
 	}
 }
@@ -468,7 +497,7 @@ ul.Grid,
 .corsi li {
 	font-size: 1rem;
 	padding: 2em 0 2em 0;
-	/*border-bottom: 1px dashed black;*/
+	/*border-bottom: 1px dashed #010f1f;*/
 }
 
 .corsi li:hover {
