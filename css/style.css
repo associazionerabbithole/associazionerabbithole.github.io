@@ -33,11 +33,17 @@ body {
 }
 
 main {
-	margin-top: 3em;
+	margin-top: 5em;
 	-webkit-box-flex: 1;
 	-webkit-flex: 1;
 			-ms-flex: 1;
 					flex: 1;
+}
+
+@media (max-width: 640px) {
+	main {
+		margin-top: 3em;
+	}
 }
 
 h2, h3, p {
@@ -222,7 +228,7 @@ table {
 
 header {
 	background: #010f1f;
-	position: relative;
+	position: fixed;
 	width: 100vw;
 	box-sizing: border-box;
 	height: 40px;
@@ -236,6 +242,7 @@ header {
 
 @media (max-width: 640px) {
 	header {
+		position: relative;
 		flex-direction: column;
 		height: 80px;
 		justify-content: space-around;
