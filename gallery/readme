@@ -1,0 +1,1 @@
+convert "001.jpg" -resize 1920 -quality 100 "001.jpg"

@@ -47,7 +47,7 @@ h2, h3, p {
 h1 {
 	font-weight: 900;
 	font-family: 'Source Code Pro', monospace;
-	font-size: 3rem;
+	font-size: 2rem;
 }
 
 b {
@@ -472,6 +472,7 @@ section.corsi {
 	/*max-width: 760px;*/
 	border-top: 4px double #010f1f;
 	margin: 3em auto 3em auto;
+	padding: 10px 0;
 }
 
 @media  (max-width: 640px) {
@@ -493,7 +494,7 @@ li {
 ul.Grid,
 .corsi ul {
 	list-style: none;
-	margin: 0;
+	margin: 0 auto;
 	padding: 0;
 }
 
@@ -605,24 +606,46 @@ ul.Grid,
 	margin: 1.4rem 1rem .5rem 0;
 }
 
-.Grid-cell-gallery {
-	width: 33%;
-	max-width: 480px;
-	text-align: center;
-	min-width: 300px;
-	/*min-height: 300px;*/
+li.Grid-cell-gallery {
+	width: 20% !important;
+	max-width: 50%;
 	height: auto;
-	padding: 3rem 0 3rem 0;
+	padding: 0;
+	margin: 0;
+	padding-right: 1px;
+	margin-bottom: -3px;
+	box-sizing: border-box;
+	display:block;
+	overflow:auto;
 }
 
 @media (max-width: 640px) {
- .Grid img {
-	 margin-bottom: 0;
- }
+	li.Grid-cell-gallery {
+		width: 25% !important;
+	}
+}
+
+@media (max-width: 400px) {
+	li.Grid-cell-gallery {
+		width: 33.3333333% !important;
+	}
+}
+
+@media (max-width: 320px) {
+	li.Grid-cell-gallery {
+		width: 50% !important;
+	}
+}
+
+@media (max-width: 640px) {
+	.Grid img {
+		margin-bottom: 0;
+	}
 }
 
 .gallery ul {
 	list-style: none;
+	margin: auto;
 }
 
 .gallery h1 {
@@ -631,17 +654,17 @@ ul.Grid,
 
 
 .Grid-cell-gallery img {
-	width: 80%;
+	width: 100%;
 	margin: auto;
 	float: none;
 	border-radius: 0;
 	cursor: pointer;
 }
 
-.Grid-cell-gallery img:hover {
+/* .Grid-cell-gallery img:hover {
 	-webkit-filter: drop-shadow(20px 20px 0px yellow);
 					filter: drop-shadow(20px 20px 0px yellow);
-}
+} */
 
 .hidden {
 	display: none;
