@@ -728,21 +728,42 @@ main > section:first-child {
 figure.insegnante {
 	display: flex;
 	justify-content: flex-start;
+	align-items: flex-start;
+	flex-wrap: wrap;
 	width: 920px;
+	max-width: 100%;
 	margin: 50px auto 100px auto;
+	box-sizing: border-box;
 }
 
 figure.insegnante > img {
- width: 500px;
- height: 500px;
- margin: 0;
- padding: 0;
+	flex: 0 0 auto;
+	width: 90%;
+	max-width: 500px;
+	height: auto;
+	margin: 0 auto;
+	padding: 0;
+	display: block;
 }
 
 figure.insegnante > figcaption {
+	flex: 0 0 auto;
+	width: 90%;
 	padding-left: 20px;
-	width: 400px;
+	max-width: 400px;
 }
+
+@media (max-width: 960px) {
+	figure.insegnante > figcaption {
+		flex: 0 0 auto;
+		width: 90%;
+		padding-top: 20px;
+		padding-left: 0;
+		margin: 0 auto;
+		max-width: 500px;
+	}
+}
+
 
 figure.insegnante > figcaption > h1 {
 	font-size: 1.5rem;
