@@ -9,6 +9,7 @@ html {
 
 body {
 	background: whitesmoke;
+	overflow-x: hidden;
 	overflow-y: visible;
 	color: #010f1f;
 	margin: 0;
