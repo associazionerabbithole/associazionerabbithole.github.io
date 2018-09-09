@@ -9,7 +9,6 @@ html {
 
 body {
 	background: whitesmoke;
-	overflow-x: hidden;
 	overflow-y: visible;
 	color: #010f1f;
 	margin: 0;
@@ -195,7 +194,7 @@ article img {
 }
 
 p {
-	font-size: 1.1rem;
+	font-size: 1.2em;
 	line-height: 1.5em;
 	letter-spacing: 0;
 	color: #010f1f;
