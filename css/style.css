@@ -150,7 +150,7 @@ img.clock {
 img.home {
 	display: block;
 	width: 100%;
-	margin: 0 auto 30px auto;
+	margin: 30px auto 30px auto;
 	border-radius: 3px;
 	-webkit-box-shadow: 0px 0px 37px -8px rgba(0,0,0,0.65);
 	-moz-box-shadow: 0px 0px 37px -8px rgba(0,0,0,0.65);
