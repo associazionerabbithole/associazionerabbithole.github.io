@@ -113,7 +113,7 @@ article.one {
 					column-count: 1;
 }
 
- @media (max-width: 640px) {
+ @media (max-width: 720px) {
 	article {
 		-webkit-column-count: 1;
 			 -moz-column-count: 1;
