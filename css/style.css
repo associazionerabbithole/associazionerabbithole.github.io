@@ -203,6 +203,10 @@ p {
 	padding: 1em 0;
 }
 
+p.no-padding {
+	padding: 0;
+}
+
 h3, table {
 	 font-size: 1.2em;
 	 /*text-transform: uppercase;*/
