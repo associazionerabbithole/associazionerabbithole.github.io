@@ -3,3 +3,5 @@ _site/
 bower_components/
 vendor
 .jekyll-cache
+.DS_Store
+.vscode
