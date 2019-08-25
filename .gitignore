@@ -1,3 +1,5 @@
 _site/
 .jekyll-metadata
 bower_components/
+vendor
+.jekyll-cache
